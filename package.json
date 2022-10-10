@@ -1,0 +1,11 @@
+{
+	"name": "typescript-10-10---mj",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"compile": "tsc --watch"
+	},
+	"author": "Mateusz Jabłoński",
+	"license": "ISC"
+}
