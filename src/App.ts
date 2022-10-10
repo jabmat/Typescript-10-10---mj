@@ -74,7 +74,7 @@ button.addEventListener('click', () => {
 	}
 
 	// 2.
-	const input = document.querySelector('name').value.Number();
+	const input = document.getElementById('name').value.Number();
 
 	// 3.
 	console.log = `You have to pay ${calculatePrice(input, discountU)}`;
