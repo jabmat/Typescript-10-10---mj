@@ -72,12 +72,11 @@ button.addEventListener('click', () => {
 	} else {
 		discountU = false;
 	}
-
 	// 2.
-	const input = document.getElementById('name').value.Number();
-
+	// const input: HTMLInputElement = document.getElementById('name');
+	const input = <HTMLInputElement>document.getElementById('name');
+	const nameValue = Math.ceil(Number(input.value));
 	// 3.
-	console.log = `You have to pay ${calculatePrice(input, discountU)}`;
-
+	console.log(`You have to pay ${calculatePrice(nameValue, discountU)}`);
 	// mj
 });
